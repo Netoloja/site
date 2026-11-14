@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "produto-1",
+      "name": "Produto Exemplo 1",
+      "description": "Edite esta descrição no painel administrativo.",
+      "price": 99.9,
+      "category": "Destaques",
+      "image": "/images/products/produto-1.jpg"
+    },
+    {
+      "id": "produto-2",
+      "name": "Produto Exemplo 2",
+      "description": "Você poderá trocar imagem, valor e descrição.",
+      "price": 149.9,
+      "category": "Destaques",
+      "image": "/images/products/produto-2.jpg"
+    },
+    {
+      "id": "produto-3",
+      "name": "Produto Exemplo 3",
+      "description": "Cadastre quantos produtos quiser.",
+      "price": 79.9,
+      "category": "Novidades",
+      "image": "/images/products/produto-3.jpg"
+    }
+  ]
+}

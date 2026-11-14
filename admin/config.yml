@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/products"
+public_folder: "/images/products"
+
+collections:
+  - name: "loja"
+    label: "Produtos da Loja"
+    files:
+      - label: "Catálogo"
+        name: "produtos"
+        file: "data/products.json"
+        fields:
+          - label: "Produtos"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — R$ {{fields.price}}"
+            fields:
+              - {label: "ID (único, sem espaços)", name: "id", widget: "string", pattern: ["^[a-z0-9-]+$", "Use apenas letras minúsculas, números e hífen"]}
+              - {label: "Nome", name: "name", widget: "string"}
+              - {label: "Descrição", name: "description", widget: "text", required: false}
+              - {label: "Preço", name: "price", widget: "number", value_type: "float", min: 0.01}
+              - {label: "Categoria", name: "category", widget: "string", required: false}
+              - {label: "Imagem", name: "image", widget: "image", required: false}

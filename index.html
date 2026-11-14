@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Loja</title>
+  <meta name="description" content="Loja online com pagamento por PIX ou cartão" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <header class="topo">
+    <div class="marca">MINHA <span>LOJA</span></div>
+    <button id="cartButton" class="cart-btn" aria-controls="cart">🛒 Carrinho <span id="cartCount">0</span></button>
+  </header>
+
+  <div id="banner" class="banner" role="status" hidden></div>
+
+  <main>
+    <section class="hero">
+      <p class="tag">PRODUTOS SELECIONADOS</p>
+      <h1>Compre de forma simples e rápida.</h1>
+      <p>Escolha seus produtos e pague com PIX ou cartão.</p>
+    </section>
+
+    <section class="catalogo">
+      <div class="catalogo-head">
+        <h2>Produtos</h2>
+        <select id="categoryFilter" aria-label="Filtrar produtos">
+          <option value="todos">Todas as categorias</option>
+        </select>
+      </div>
+      <div id="products" class="products"></div>
+    </section>
+  </main>
+
+  <aside id="cart" class="cart" aria-label="Carrinho de compras">
+    <div class="cart-head">
+      <h2>Seu carrinho</h2>
+      <button id="closeCart" aria-label="Fechar carrinho">×</button>
+    </div>
+    <div id="cartItems"></div>
+    <div class="cart-footer">
+      <strong>Total: <span id="cartTotal">R$ 0,00</span></strong>
+      <button id="checkout">Pagar com PIX ou cartão</button>
+    </div>
+  </aside>
+  <div id="overlay" class="overlay"></div>
+
+  <footer>© <span id="year"></span> Minha Loja</footer>
+  <script src="app.js"></script>
+</body>
+</html>
