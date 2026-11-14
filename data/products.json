@@ -2,11 +2,11 @@
   "products": [
     {
       "id": "produto-1",
-      "name": "planta",
+      "name": "Paprica defumada",
       "description": "Edite esta descrição no painel administrativo.",
-      "price": 2026,
+      "price": 7.5,
       "category": "Destaques",
-      "image": "/images/products/whatsapp-image-2026-08-05-at-16.02.31.jpeg"
+      "image": "/images/products/whatsapp-image-2026-11-14-at-11.36.36.jpeg"
     },
     {
       "id": "produto-2",
