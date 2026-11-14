@@ -10,9 +10,9 @@
     },
     {
       "id": "produto-2",
-      "name": "Produto Exemplo 2",
-      "description": "Você poderá trocar imagem, valor e descrição.",
-      "price": 149.9,
+      "name": "pão delicia",
+      "description": "o melhor pão\n200g",
+      "price": 10,
       "category": "Destaques",
       "image": "/images/products/produto-2.jpg"
     },
