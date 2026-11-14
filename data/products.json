@@ -2,9 +2,9 @@
   "products": [
     {
       "id": "produto-1",
-      "name": "Produto Exemplo 1",
+      "name": "planta",
       "description": "Edite esta descrição no painel administrativo.",
-      "price": 99.9,
+      "price": 2026,
       "category": "Destaques",
       "image": "/images/products/whatsapp-image-2026-08-05-at-16.02.31.jpeg"
     },
